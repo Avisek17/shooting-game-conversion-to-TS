@@ -8,11 +8,9 @@
 
     "moduleResolution": "bundler",
 
-    "strict": true,
+    "strict": true
     // "sourceMap": truetsc
   },
 
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

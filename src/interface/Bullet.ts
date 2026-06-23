@@ -1,4 +1,4 @@
 export interface Bullet {
-    element: HTMLElement;
-    y: number;
+  element: HTMLElement;
+  y: number;
 }

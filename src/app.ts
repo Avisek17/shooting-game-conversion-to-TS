@@ -1,12 +1,9 @@
 import { GameController } from "./game/game.js";
 
-// 1. Initialize your game controller instance
 const game = new GameController();
 
-// 2. Safely grab the start button from your HTML DOM
-const startButton = document.getElementById("startBtn"); // Double check that your HTML button has id="startBtn"
+const startButton = document.getElementById("startBtn"); 
 
-// 3. Attach a clean click listener to boot up the game area
 if (startButton) {
     startButton.addEventListener("click", () => {
         game.startGame();
@@ -15,9 +12,6 @@ if (startButton) {
     console.error("Could not find the start button element in the DOM. Check your HTML ID!");
 }
 
-// ==========================================
-// Keep your existing Copyright Modal logic below
-// ==========================================
 const copyrightBtn = document.getElementById("copyrightBtn");
 const copyrightModal = document.getElementById("copyrightModal");
 
